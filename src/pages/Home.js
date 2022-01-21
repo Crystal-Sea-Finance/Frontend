@@ -131,7 +131,7 @@ export default function Home() {
         <VStack
           spacing={{ base: 8, md: 10 }}
           py={{ base: 20, md: 28 }}
-          px={{ base: 10, md: 18 }}
+          px={{ base: 10, md: 28 }}
           pt={{ base: 20, md: 10 }}
         >
           <Text>About Us</Text>
@@ -144,6 +144,7 @@ export default function Home() {
             that launches on the platform.
           </Text>
           <Flex
+            mx={{ md: 10 }}
             direction={{ base: 'column', md: 'row' }}
             justifyContent={'space-between'}
             w={'full'}

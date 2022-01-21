@@ -5,13 +5,13 @@ function ColoredHomeCard({ image, text, soon }) {
   return (
     <VStack
       spacing={5}
-      p={{ base: 6, md: 12 }}
+      p={{ base: 6, md: 8 }}
       bg={'secondary.400'}
       my={{ base: 4, md: 0 }}
       w={{ base: 300, md: 280 }}
       borderRadius={10}
     >
-      <Image src={image} height={'100px'} width={'100px'} />
+      <Image src={image} height={'80px'} width={'80px'} />
       <Text color={'white'} fontWeight={'bold'} fontSize={30}>
         {text}
       </Text>
